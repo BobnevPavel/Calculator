@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="first_field">Введите первое число</string>
+    <string name="second_field">Введите второе число</string>
+    <string name="addition_text">+</string>
+    <string name="subtraction_text">-</string>
+    <string name="multiplication_text">X</string>
+    <string name="division_text">/</string>
+    <string name="result">Результат равен:</string>
+</resources>

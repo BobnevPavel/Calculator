@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/first_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/first_field"
+        />
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/second_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/second_field"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/result"
+        android:textSize="20dp"
+        android:padding="7dp"
+        />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_weight="6"
+        >
+
+        <Button
+            android:id="@+id/addition"
+            android:text="@string/addition_text"
+            android:width="150dp"
+            android:height="150dp"
+            />
+        <Button
+            android:id="@+id/subtraction"
+            android:text="@string/subtraction_text"
+            android:layout_marginLeft="10dp"
+            android:width="150dp"
+            android:height="150dp"
+
+            />
+        <Button
+            android:id="@+id/multiplication"
+            android:text="@string/multiplication_text"
+            android:width="150dp"
+            android:height="150dp"
+            />
+        <Button
+            android:id="@+id/division"
+            android:text="@string/division_text"
+            android:layout_marginLeft="10dp"
+            android:width="150dp"
+            android:height="150dp"
+            />
+    </GridLayout>
+</LinearLayout>
